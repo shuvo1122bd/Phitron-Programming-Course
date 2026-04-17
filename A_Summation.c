@@ -2,25 +2,24 @@
 #include <stdlib.h>
 int main()
 {
-    long long int n;
-    scanf("%lld", &n);
-    long long int arr[n];
+    int n;
+    scanf("%d", &n);
+    long long int a[n];
     long long int sum = 0;
     for (int i = 0; i < n; i++)
     {
-        scanf("%lld", &arr[i]);
-        sum = sum + arr[i];
+        scanf("%lld", &a[i]);
+    }
+    for (int i = 0; i < n; i++)
+    {
+        sum += a[i];
     }
     if (sum < 0)
     {
-        long long int x = sum;
-        long long int y = abs(x);
-        printf("%lld", y);
+        sum *= -1;
+        
     }
-    else
-    {
         printf("%lld", sum);
-    }
 
     return 0;
 }

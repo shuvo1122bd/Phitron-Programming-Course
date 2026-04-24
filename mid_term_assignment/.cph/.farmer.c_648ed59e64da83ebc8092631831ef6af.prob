@@ -1,0 +1,1 @@
+{"name":"Local: farmer","url":"g:\\Phitron\\Introduction to programming\\mid_term_assignment\\farmer.c","tests":[{"id":1777008633608,"input":"4\n10 5 15\n4 0 5\n4 1 5\n7 1000 1","output":"5\n0\n1\n1"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"g:\\Phitron\\Introduction to programming\\mid_term_assignment\\farmer.c","group":"local","local":true}

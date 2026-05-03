@@ -4,8 +4,8 @@ int main()
     int n;
     scanf("%d", &n);
 
-    int star = 1;
-    int space = n-1;
+    int star = n+2;
+    int space = 0;
 
     for(int i = 1; i <= n;i++) //printing new lines
     {
@@ -18,8 +18,8 @@ int main()
             printf("*");
         }
         printf("\n");
-        star += 2;
-        space--;
+        star -= 2;
+        space++;
     }
 
     return 0;

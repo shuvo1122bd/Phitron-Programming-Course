@@ -1,0 +1,1 @@
+{"name":"Local: pattern","url":"g:\\Phitron\\Introduction to programming\\Assignment 3\\pattern.c","tests":[{"id":1778186197122,"input":"5","output":"   #\n  ---\n #####\n-------\n #####\n  ---\n   #"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"g:\\Phitron\\Introduction to programming\\Assignment 3\\pattern.c","group":"local","local":true}

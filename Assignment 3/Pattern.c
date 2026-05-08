@@ -30,8 +30,7 @@ int main()
     }
 
     int space2 = 1;
-    int hash2 = (n*2)-3;
-    
+    int hash2 = (n * 2) - 3;
 
     for (int i = 1; i < n; i++) // for lines
     {
@@ -41,7 +40,9 @@ int main()
         }
         for (int j = 1; j <= hash2; j++)
         {
-            
+
+            if (n % 2 == 0)
+            {
                 if (i % 2 != 0)
                 {
                     printf("#");
@@ -51,10 +52,22 @@ int main()
                     printf("-");
                 }
             }
+            else
+            {
+
+                if (i % 2 != 0)
+                {
+                    printf("-");
+                }
+                else
+                {
+                    printf("#");
+                }
+            }
+        }
         printf("\n");
         hash2 -= 2;
         space2++;
-        
     }
     return 0;
 }

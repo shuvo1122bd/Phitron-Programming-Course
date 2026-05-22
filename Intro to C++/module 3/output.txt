@@ -1,0 +1,8 @@
+1. Student name: nazmul
+Roll : 2
+section : B
+GPA : 4.3
+2. Student name: shuvo
+Roll : 21
+section : C
+GPA : 4.75

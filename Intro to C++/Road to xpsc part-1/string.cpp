@@ -3,15 +3,11 @@ using namespace std;
 
 int main()
     {
-        int x;
-        cin >> x;
+        string ss;
         string s;
-        cin.ignore();
-        getline(cin,s);
+        // cin.ignore();
+        getline(cin,ss);
         
-        cout << s << endl;
-
-        
-
+        cout << s <<endl<< ss <<  endl;
         return 0;
     }

@@ -1,0 +1,8 @@
+Name : Hasan
+Marks of English : 80
+Marks of Math : 86
+Total average marks : 83
+Name : Omi
+Marks of English : 78
+Marks of Math : 95
+Total average marks : 86

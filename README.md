@@ -47,31 +47,6 @@ The repository includes topics such as:
 
 ---
 
-## 💻 How to Run
-
-### Compile a C program
-
-```bash
-gcc filename.c -o output
-./output
-```
-
-### Compile a C++ program
-
-```bash
-g++ filename.cpp -o output
-./output
-```
-
-Or you can use any IDE such as:
-
-* Visual Studio Code
-* Code::Blocks
-* Dev-C++
-* CLion
-
----
-
 ## 🎯 Learning Goals
 
 Through this repository, I aim to:
